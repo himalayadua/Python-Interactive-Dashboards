@@ -1,2 +1,3 @@
-# Python-Interactive-Dashboards
-Python Interactive Dashboards with Plotly Dash
+# Python Interactive Dashboards with Plotly Dash
+Course
+- Intro
