@@ -5,3 +5,5 @@ Course
 - making dashboard interactive
 - customize dashboard
 - case study
+    - interactive map
+    - financial dashboard
