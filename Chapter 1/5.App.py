@@ -14,3 +14,4 @@ app.layout = html.Div([
 )
 def update_output_div(input_text):
     return f'Text: {input_text}'
+
