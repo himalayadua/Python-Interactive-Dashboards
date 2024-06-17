@@ -12,3 +12,5 @@ app.layout = html.Div([
     Output(component_id='output_text', component_property='children'),
     Input(component_id='input_text', component_property='value')
 )
+def update_output_div(input_text):
+    return f'Text: {input_text}'
