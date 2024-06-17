@@ -15,3 +15,6 @@ app.layout = html.Div([
 def update_output_div(input_text):
     return f'Text: {input_text}'
 
+
+if __name__ == '__main__':
+    app.run_server(debug=True)
