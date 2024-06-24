@@ -20,8 +20,6 @@ app.layout = html.Div([
                    href='http://worldhappiness.report',
                    target='_blank')]),
 
-        dcc.RadioItems(options=happiness['region'].unique(), value='North America'),
-        dcc.Checklist(options=happiness['region'].unique(), value='North America'),
         
         dcc.Dropdown(id='country-dropdown', options=happiness['region'].unique(), value='United States'),
         
