@@ -21,8 +21,9 @@ app.layout = html.Div([
                    target='_blank')]),
 
         
-        dcc.Dropdown(id='country-dropdown', options=happiness['region'].unique(), value='United States'),
-        
+        dcc.Dropdown(id='country-dropdown', 
+                     options=happiness['country'].unique(), 
+                     value='United States'),
         # use the new variable
         dcc.Graph(id='happiness-graph', figure={})
         # figure is an empty map as this will get updated by the callback function below
